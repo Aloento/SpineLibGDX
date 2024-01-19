@@ -28,9 +28,9 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine36;
 
-import static com.esotericsoftware.spine.Animation.RotateTimeline.*;
+import static com.esotericsoftware.spine36.Animation.RotateTimeline.*;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
@@ -38,12 +38,12 @@ import com.badlogic.gdx.utils.IntArray;
 import com.badlogic.gdx.utils.IntSet;
 import com.badlogic.gdx.utils.Pool;
 import com.badlogic.gdx.utils.Pool.Poolable;
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.MixDirection;
-import com.esotericsoftware.spine.Animation.MixPose;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
+import com.esotericsoftware.spine36.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine36.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine36.Animation.MixDirection;
+import com.esotericsoftware.spine36.Animation.MixPose;
+import com.esotericsoftware.spine36.Animation.RotateTimeline;
+import com.esotericsoftware.spine36.Animation.Timeline;
 
 /** Applies animations over time, queues animations for later playback, mixes (crossfading) between animations, and applies
  * multiple animations on top of each other (layering).

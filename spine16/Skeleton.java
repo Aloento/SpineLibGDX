@@ -31,9 +31,9 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine16;
 
-import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine16.attachments.Attachment;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Array;

@@ -1,5 +1,5 @@
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine31;
 
 import com.badlogic.gdx.math.Vector2;
 

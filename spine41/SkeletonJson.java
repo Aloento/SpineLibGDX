@@ -27,9 +27,9 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine41;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine41.utils.SpineUtils.*;
 
 import java.io.InputStream;
 
@@ -44,51 +44,51 @@ import com.badlogic.gdx.utils.JsonValue;
 import com.badlogic.gdx.utils.Null;
 import com.badlogic.gdx.utils.SerializationException;
 
-import com.esotericsoftware.spine.Animation.AlphaTimeline;
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.CurveTimeline;
-import com.esotericsoftware.spine.Animation.CurveTimeline1;
-import com.esotericsoftware.spine.Animation.CurveTimeline2;
-import com.esotericsoftware.spine.Animation.DeformTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.EventTimeline;
-import com.esotericsoftware.spine.Animation.IkConstraintTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintMixTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintPositionTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintSpacingTimeline;
-import com.esotericsoftware.spine.Animation.RGB2Timeline;
-import com.esotericsoftware.spine.Animation.RGBA2Timeline;
-import com.esotericsoftware.spine.Animation.RGBATimeline;
-import com.esotericsoftware.spine.Animation.RGBTimeline;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.ScaleTimeline;
-import com.esotericsoftware.spine.Animation.ScaleXTimeline;
-import com.esotericsoftware.spine.Animation.ScaleYTimeline;
-import com.esotericsoftware.spine.Animation.SequenceTimeline;
-import com.esotericsoftware.spine.Animation.ShearTimeline;
-import com.esotericsoftware.spine.Animation.ShearXTimeline;
-import com.esotericsoftware.spine.Animation.ShearYTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
-import com.esotericsoftware.spine.Animation.TransformConstraintTimeline;
-import com.esotericsoftware.spine.Animation.TranslateTimeline;
-import com.esotericsoftware.spine.Animation.TranslateXTimeline;
-import com.esotericsoftware.spine.Animation.TranslateYTimeline;
-import com.esotericsoftware.spine.BoneData.TransformMode;
-import com.esotericsoftware.spine.PathConstraintData.PositionMode;
-import com.esotericsoftware.spine.PathConstraintData.RotateMode;
-import com.esotericsoftware.spine.PathConstraintData.SpacingMode;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentType;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.ClippingAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.PointAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.Sequence;
-import com.esotericsoftware.spine.attachments.Sequence.SequenceMode;
-import com.esotericsoftware.spine.attachments.VertexAttachment;
+import com.esotericsoftware.spine41.Animation.AlphaTimeline;
+import com.esotericsoftware.spine41.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine41.Animation.CurveTimeline;
+import com.esotericsoftware.spine41.Animation.CurveTimeline1;
+import com.esotericsoftware.spine41.Animation.CurveTimeline2;
+import com.esotericsoftware.spine41.Animation.DeformTimeline;
+import com.esotericsoftware.spine41.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine41.Animation.EventTimeline;
+import com.esotericsoftware.spine41.Animation.IkConstraintTimeline;
+import com.esotericsoftware.spine41.Animation.PathConstraintMixTimeline;
+import com.esotericsoftware.spine41.Animation.PathConstraintPositionTimeline;
+import com.esotericsoftware.spine41.Animation.PathConstraintSpacingTimeline;
+import com.esotericsoftware.spine41.Animation.RGB2Timeline;
+import com.esotericsoftware.spine41.Animation.RGBA2Timeline;
+import com.esotericsoftware.spine41.Animation.RGBATimeline;
+import com.esotericsoftware.spine41.Animation.RGBTimeline;
+import com.esotericsoftware.spine41.Animation.RotateTimeline;
+import com.esotericsoftware.spine41.Animation.ScaleTimeline;
+import com.esotericsoftware.spine41.Animation.ScaleXTimeline;
+import com.esotericsoftware.spine41.Animation.ScaleYTimeline;
+import com.esotericsoftware.spine41.Animation.SequenceTimeline;
+import com.esotericsoftware.spine41.Animation.ShearTimeline;
+import com.esotericsoftware.spine41.Animation.ShearXTimeline;
+import com.esotericsoftware.spine41.Animation.ShearYTimeline;
+import com.esotericsoftware.spine41.Animation.Timeline;
+import com.esotericsoftware.spine41.Animation.TransformConstraintTimeline;
+import com.esotericsoftware.spine41.Animation.TranslateTimeline;
+import com.esotericsoftware.spine41.Animation.TranslateXTimeline;
+import com.esotericsoftware.spine41.Animation.TranslateYTimeline;
+import com.esotericsoftware.spine41.BoneData.TransformMode;
+import com.esotericsoftware.spine41.PathConstraintData.PositionMode;
+import com.esotericsoftware.spine41.PathConstraintData.RotateMode;
+import com.esotericsoftware.spine41.PathConstraintData.SpacingMode;
+import com.esotericsoftware.spine41.attachments.Attachment;
+import com.esotericsoftware.spine41.attachments.AttachmentLoader;
+import com.esotericsoftware.spine41.attachments.AttachmentType;
+import com.esotericsoftware.spine41.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine41.attachments.ClippingAttachment;
+import com.esotericsoftware.spine41.attachments.MeshAttachment;
+import com.esotericsoftware.spine41.attachments.PathAttachment;
+import com.esotericsoftware.spine41.attachments.PointAttachment;
+import com.esotericsoftware.spine41.attachments.RegionAttachment;
+import com.esotericsoftware.spine41.attachments.Sequence;
+import com.esotericsoftware.spine41.attachments.Sequence.SequenceMode;
+import com.esotericsoftware.spine41.attachments.VertexAttachment;
 
 /** Loads skeleton data in the Spine JSON format.
  * <p>

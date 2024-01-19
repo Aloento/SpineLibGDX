@@ -28,17 +28,17 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine36;
 
-import static com.esotericsoftware.spine.Animation.MixDirection.*;
-import static com.esotericsoftware.spine.Animation.MixPose.*;
+import static com.esotericsoftware.spine36.Animation.MixDirection.*;
+import static com.esotericsoftware.spine36.Animation.MixPose.*;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.VertexAttachment;
+import com.esotericsoftware.spine36.attachments.Attachment;
+import com.esotericsoftware.spine36.attachments.VertexAttachment;
 
 /** A simple container for a list of timelines and a name. */
 public class Animation {

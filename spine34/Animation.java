@@ -28,14 +28,14 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine34;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.VertexAttachment;
+import com.esotericsoftware.spine34.attachments.Attachment;
+import com.esotericsoftware.spine34.attachments.VertexAttachment;
 
 public class Animation {
 	final String name;

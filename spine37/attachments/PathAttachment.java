@@ -27,10 +27,10 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine37.attachments;
 
 import com.badlogic.gdx.graphics.Color;
-import com.esotericsoftware.spine.PathConstraint;
+import com.esotericsoftware.spine37.PathConstraint;
 
 /** An attachment whose vertices make up a composite Bezier curve.
  * <p>

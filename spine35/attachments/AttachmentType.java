@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine35.attachments;
 
 public enum AttachmentType {
 	region, boundingbox, mesh, linkedmesh, path;

@@ -28,10 +28,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine34.attachments;
 
 import com.badlogic.gdx.graphics.Color;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine34.Slot;
 
 public class PathAttachment extends VertexAttachment {
 	float[] lengths;

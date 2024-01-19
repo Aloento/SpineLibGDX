@@ -28,13 +28,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine21;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.attachments.SkinnedMeshAttachment;
+import com.esotericsoftware.spine21.attachments.Attachment;
+import com.esotericsoftware.spine21.attachments.MeshAttachment;
+import com.esotericsoftware.spine21.attachments.RegionAttachment;
+import com.esotericsoftware.spine21.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine21.attachments.SkinnedMeshAttachment;
 
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;

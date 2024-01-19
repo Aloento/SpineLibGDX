@@ -27,11 +27,11 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine40;
 
-import static com.esotericsoftware.spine.Animation.MixBlend.*;
-import static com.esotericsoftware.spine.Animation.MixDirection.*;
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine40.Animation.MixBlend.*;
+import static com.esotericsoftware.spine40.Animation.MixDirection.*;
+import static com.esotericsoftware.spine40.utils.SpineUtils.*;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Array;
@@ -39,8 +39,8 @@ import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.Null;
 import com.badlogic.gdx.utils.ObjectSet;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.VertexAttachment;
+import com.esotericsoftware.spine40.attachments.Attachment;
+import com.esotericsoftware.spine40.attachments.VertexAttachment;
 
 /** Stores a list of timelines to animate a skeleton's pose over time. */
 public class Animation {

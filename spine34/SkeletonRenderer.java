@@ -28,14 +28,14 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine34;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.utils.Array;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
+import com.esotericsoftware.spine34.attachments.Attachment;
+import com.esotericsoftware.spine34.attachments.RegionAttachment;
+import com.esotericsoftware.spine34.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine34.attachments.MeshAttachment;
 
 public class SkeletonRenderer<T extends Batch> {
 	boolean premultipliedAlpha;

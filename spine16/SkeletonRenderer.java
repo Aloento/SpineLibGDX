@@ -31,16 +31,15 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine16;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-
-import com.badlogic.gdx.graphics.GL11;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Array;
+import com.esotericsoftware.spine16.attachments.Attachment;
+import com.esotericsoftware.spine16.attachments.RegionAttachment;
+import org.lwjgl.opengl.GL11;
 
 public class SkeletonRenderer {
 	static private final short[] quadTriangle = {0, 1, 2, 2, 3, 0};

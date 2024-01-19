@@ -28,14 +28,14 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine36.attachments;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 import com.badlogic.gdx.utils.FloatArray;
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine36.Bone;
+import com.esotericsoftware.spine36.Skeleton;
+import com.esotericsoftware.spine36.Slot;
 
 /** Base class for an attachment with vertices that are transformed by one or more bones and can be deformed by a slot's
  * {@link Slot#getAttachmentVertices()}. */

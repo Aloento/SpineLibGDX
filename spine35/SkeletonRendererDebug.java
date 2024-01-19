@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine35;
 
 import static com.badlogic.gdx.graphics.g2d.Batch.*;
 
@@ -39,11 +39,11 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
+import com.esotericsoftware.spine35.attachments.Attachment;
+import com.esotericsoftware.spine35.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine35.attachments.MeshAttachment;
+import com.esotericsoftware.spine35.attachments.PathAttachment;
+import com.esotericsoftware.spine35.attachments.RegionAttachment;
 
 public class SkeletonRendererDebug {
 	static private final Color boneLineColor = Color.RED;

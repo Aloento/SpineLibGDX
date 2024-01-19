@@ -28,9 +28,9 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine36.attachments;
 
-import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine36.Skeleton;
 
 /** Attachment that displays a skeleton. */
 public class SkeletonAttachment extends Attachment {

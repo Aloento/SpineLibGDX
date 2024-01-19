@@ -26,9 +26,9 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine17.attachments;
 
-import com.esotericsoftware.spine.Bone;
+import com.esotericsoftware.spine17.Bone;
 
 public class BoundingBoxAttachment extends Attachment {
 	private float[] vertices;

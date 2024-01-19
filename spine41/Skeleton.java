@@ -27,9 +27,9 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine41;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine41.utils.SpineUtils.*;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
@@ -37,11 +37,11 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.Null;
 
-import com.esotericsoftware.spine.Skin.SkinEntry;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
+import com.esotericsoftware.spine41.Skin.SkinEntry;
+import com.esotericsoftware.spine41.attachments.Attachment;
+import com.esotericsoftware.spine41.attachments.MeshAttachment;
+import com.esotericsoftware.spine41.attachments.PathAttachment;
+import com.esotericsoftware.spine41.attachments.RegionAttachment;
 
 /** Stores the current pose for a skeleton.
  * <p>

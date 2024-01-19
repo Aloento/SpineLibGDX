@@ -27,15 +27,15 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine38.attachments;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine38.utils.SpineUtils.*;
 
 import com.badlogic.gdx.utils.FloatArray;
 
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine38.Bone;
+import com.esotericsoftware.spine38.Skeleton;
+import com.esotericsoftware.spine38.Slot;
 
 /** Base class for an attachment with vertices that are transformed by one or more bones and can be deformed by a slot's
  * {@link Slot#getDeform()}. */

@@ -28,12 +28,12 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine34.attachments;
 
 import com.badlogic.gdx.utils.FloatArray;
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine34.Bone;
+import com.esotericsoftware.spine34.Skeleton;
+import com.esotericsoftware.spine34.Slot;
 
 /** An attachment with vertices that are transformed by one or more bones and can be deformed by a slot's vertices. */
 public class VertexAttachment extends Attachment {

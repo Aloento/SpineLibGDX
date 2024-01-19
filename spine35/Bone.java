@@ -28,15 +28,15 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine35;
 
-import static com.esotericsoftware.spine.utils.TrigUtils.*;
+import static com.esotericsoftware.spine35.utils.TrigUtils.*;
 import static com.badlogic.gdx.math.Matrix3.*;
 
 import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
-import com.esotericsoftware.spine.BoneData.TransformMode;
+import com.esotericsoftware.spine35.BoneData.TransformMode;
 
 /** Stores a bone's current pose. */
 public class Bone implements Updatable {

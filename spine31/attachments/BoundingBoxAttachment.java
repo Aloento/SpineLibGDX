@@ -29,10 +29,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine31.attachments;
 
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine31.Bone;
+import com.esotericsoftware.spine31.Skeleton;
 
 public class BoundingBoxAttachment extends Attachment {
 	private float[] vertices;

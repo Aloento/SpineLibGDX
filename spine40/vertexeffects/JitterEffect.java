@@ -27,14 +27,14 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.vertexeffects;
+package com.esotericsoftware.spine40.vertexeffects;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonRenderer.VertexEffect;
+import com.esotericsoftware.spine40.Skeleton;
+import com.esotericsoftware.spine40.SkeletonRenderer.VertexEffect;
 
 public class JitterEffect implements VertexEffect {
 	private float x, y;

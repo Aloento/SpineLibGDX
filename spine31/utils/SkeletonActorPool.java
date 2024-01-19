@@ -1,16 +1,16 @@
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine31.utils;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Pool;
-import com.esotericsoftware.spine.AnimationState;
-import com.esotericsoftware.spine.AnimationState.TrackEntry;
-import com.esotericsoftware.spine.AnimationStateData;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonData;
-import com.esotericsoftware.spine.SkeletonRenderer;
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine31.AnimationState;
+import com.esotericsoftware.spine31.AnimationState.TrackEntry;
+import com.esotericsoftware.spine31.AnimationStateData;
+import com.esotericsoftware.spine31.Skeleton;
+import com.esotericsoftware.spine31.SkeletonData;
+import com.esotericsoftware.spine31.SkeletonRenderer;
+import com.esotericsoftware.spine31.Skin;
 
 public class SkeletonActorPool extends Pool<SkeletonActor> {
 	private SkeletonRenderer renderer;

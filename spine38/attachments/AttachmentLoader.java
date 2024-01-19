@@ -27,9 +27,9 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine38.attachments;
 
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine38.Skin;
 
 /** The interface which can be implemented to customize creating and populating attachments.
  * <p>

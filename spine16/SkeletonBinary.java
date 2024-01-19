@@ -31,25 +31,25 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine16;
 
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.ColorTimeline;
-import com.esotericsoftware.spine.Animation.CurveTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.EventTimeline;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.ScaleTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
-import com.esotericsoftware.spine.Animation.TranslateTimeline;
-import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentType;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.RegionSequenceAttachment;
-import com.esotericsoftware.spine.attachments.RegionSequenceAttachment.Mode;
+import com.esotericsoftware.spine16.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine16.Animation.ColorTimeline;
+import com.esotericsoftware.spine16.Animation.CurveTimeline;
+import com.esotericsoftware.spine16.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine16.Animation.EventTimeline;
+import com.esotericsoftware.spine16.Animation.RotateTimeline;
+import com.esotericsoftware.spine16.Animation.ScaleTimeline;
+import com.esotericsoftware.spine16.Animation.Timeline;
+import com.esotericsoftware.spine16.Animation.TranslateTimeline;
+import com.esotericsoftware.spine16.attachments.AtlasAttachmentLoader;
+import com.esotericsoftware.spine16.attachments.Attachment;
+import com.esotericsoftware.spine16.attachments.AttachmentLoader;
+import com.esotericsoftware.spine16.attachments.AttachmentType;
+import com.esotericsoftware.spine16.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine16.attachments.RegionAttachment;
+import com.esotericsoftware.spine16.attachments.RegionSequenceAttachment;
+import com.esotericsoftware.spine16.attachments.RegionSequenceAttachment.Mode;
 
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Color;

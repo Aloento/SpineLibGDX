@@ -27,19 +27,19 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine40;
 
 import java.util.Arrays;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 
-import com.esotericsoftware.spine.PathConstraintData.PositionMode;
-import com.esotericsoftware.spine.PathConstraintData.RotateMode;
-import com.esotericsoftware.spine.PathConstraintData.SpacingMode;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.utils.SpineUtils;
+import com.esotericsoftware.spine40.PathConstraintData.PositionMode;
+import com.esotericsoftware.spine40.PathConstraintData.RotateMode;
+import com.esotericsoftware.spine40.PathConstraintData.SpacingMode;
+import com.esotericsoftware.spine40.attachments.Attachment;
+import com.esotericsoftware.spine40.attachments.PathAttachment;
+import com.esotericsoftware.spine40.utils.SpineUtils;
 
 /** Stores the current pose for a path constraint. A path constraint adjusts the rotation, translation, and scale of the
  * constrained bones so they follow a {@link PathAttachment}.

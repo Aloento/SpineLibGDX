@@ -27,16 +27,16 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine37;
 
 import static com.badlogic.gdx.math.Matrix3.*;
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine37.utils.SpineUtils.*;
 
 import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
 
-import com.esotericsoftware.spine.BoneData.TransformMode;
+import com.esotericsoftware.spine37.BoneData.TransformMode;
 
 /** Stores a bone's current pose.
  * <p>

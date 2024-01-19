@@ -27,12 +27,12 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine40.attachments;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine40.Skin;
 
 /** An {@link AttachmentLoader} that configures attachments using texture regions from an {@link Atlas}.
  * <p>

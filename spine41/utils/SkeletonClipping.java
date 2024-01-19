@@ -27,14 +27,14 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine41.utils;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.ShortArray;
 
-import com.esotericsoftware.spine.Slot;
-import com.esotericsoftware.spine.attachments.ClippingAttachment;
+import com.esotericsoftware.spine41.Slot;
+import com.esotericsoftware.spine41.attachments.ClippingAttachment;
 
 public class SkeletonClipping {
 	private final Triangulator triangulator = new Triangulator();

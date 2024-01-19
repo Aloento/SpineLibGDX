@@ -27,11 +27,11 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine40.attachments;
 
 import com.badlogic.gdx.utils.Null;
 
-import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine40.Skeleton;
 
 /** Attachment that displays a skeleton. */
 public class SkeletonAttachment extends Attachment {

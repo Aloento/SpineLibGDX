@@ -1,5 +1,5 @@
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine31;
 
 public class TransformConstraintData {
 	final String name;

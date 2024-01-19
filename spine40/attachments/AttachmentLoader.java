@@ -27,11 +27,11 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine40.attachments;
 
 import com.badlogic.gdx.utils.Null;
 
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine40.Skin;
 
 /** The interface which can be implemented to customize creating and populating attachments.
  * <p>

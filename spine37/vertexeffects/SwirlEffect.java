@@ -27,15 +27,15 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.vertexeffects;
+package com.esotericsoftware.spine37.vertexeffects;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonRenderer.VertexEffect;
-import com.esotericsoftware.spine.utils.SpineUtils;
+import com.esotericsoftware.spine37.Skeleton;
+import com.esotericsoftware.spine37.SkeletonRenderer.VertexEffect;
+import com.esotericsoftware.spine37.utils.SpineUtils;
 
 public class SwirlEffect implements VertexEffect {
 	private float worldX, worldY, radius, angle;

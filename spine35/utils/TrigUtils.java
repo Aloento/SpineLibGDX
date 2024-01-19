@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine35.utils;
 
 public class TrigUtils {
 	static public final float PI = 3.1415927f;

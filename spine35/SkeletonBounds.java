@@ -28,13 +28,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine35;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.Pool;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine35.attachments.Attachment;
+import com.esotericsoftware.spine35.attachments.BoundingBoxAttachment;
 
 /** Collects each {@link BoundingBoxAttachment} that is visible and computes the world vertices for its polygon. The polygon
  * vertices are provided along with convenience methods for doing hit detection. */

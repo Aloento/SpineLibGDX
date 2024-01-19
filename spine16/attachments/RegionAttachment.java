@@ -31,11 +31,11 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine16.attachments;
 
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine16.Bone;
+import com.esotericsoftware.spine16.Skeleton;
+import com.esotericsoftware.spine16.Slot;
 
 import static com.badlogic.gdx.graphics.g2d.SpriteBatch.*;
 

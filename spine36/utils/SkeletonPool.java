@@ -28,11 +28,11 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine36.utils;
 
 import com.badlogic.gdx.utils.Pool;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonData;
+import com.esotericsoftware.spine36.Skeleton;
+import com.esotericsoftware.spine36.SkeletonData;
 
 public class SkeletonPool extends Pool<Skeleton> {
 	private SkeletonData skeletonData;

@@ -26,9 +26,9 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine17.attachments;
 
-import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine17.Skeleton;
 
 /** Attachment that displays a texture region. */
 public class SkeletonAttachment extends Attachment {

@@ -28,15 +28,15 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine35;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch;
 import com.badlogic.gdx.utils.Array;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
+import com.esotericsoftware.spine35.attachments.Attachment;
+import com.esotericsoftware.spine35.attachments.RegionAttachment;
+import com.esotericsoftware.spine35.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine35.attachments.MeshAttachment;
 
 public class SkeletonMeshRenderer extends SkeletonRenderer<PolygonSpriteBatch> {
 	static private final short[] quadTriangles = {0, 1, 2, 2, 3, 0};

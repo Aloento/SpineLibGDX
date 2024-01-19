@@ -28,21 +28,21 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine36;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.cosDeg;
-import static com.esotericsoftware.spine.utils.SpineUtils.sinDeg;
+import static com.esotericsoftware.spine36.utils.SpineUtils.cosDeg;
+import static com.esotericsoftware.spine36.utils.SpineUtils.sinDeg;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.ObjectMap.Entry;
-import com.esotericsoftware.spine.Skin.Key;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
+import com.esotericsoftware.spine36.Skin.Key;
+import com.esotericsoftware.spine36.attachments.Attachment;
+import com.esotericsoftware.spine36.attachments.MeshAttachment;
+import com.esotericsoftware.spine36.attachments.PathAttachment;
+import com.esotericsoftware.spine36.attachments.RegionAttachment;
 
 /** Stores the current pose for a skeleton.
  * <p>

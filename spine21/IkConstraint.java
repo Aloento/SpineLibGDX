@@ -1,5 +1,5 @@
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine21;
 
 import static com.badlogic.gdx.math.MathUtils.*;
 

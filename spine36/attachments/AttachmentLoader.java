@@ -28,9 +28,9 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine36.attachments;
 
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine36.Skin;
 
 /** The interface which can be implemented to customize creating and populating attachments.
  * <p>

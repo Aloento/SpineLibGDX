@@ -26,20 +26,19 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
-
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-
-import static com.badlogic.gdx.graphics.g2d.SpriteBatch.*;
+package com.esotericsoftware.spine17;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
+import com.esotericsoftware.spine17.attachments.Attachment;
+import com.esotericsoftware.spine17.attachments.RegionAttachment;
+import org.lwjgl.opengl.GL11;
+
+import static com.badlogic.gdx.graphics.g2d.SpriteBatch.*;
 
 public class SkeletonRendererDebug {
 	static private final Color boneLineColor = Color.RED;
@@ -60,7 +59,7 @@ public class SkeletonRendererDebug {
 		float skeletonX = skeleton.getX();
 		float skeletonY = skeleton.getY();
 
-		Gdx.gl.glEnable(GL10.GL_BLEND);
+		Gdx.gl.glEnable(GL11.GL_BLEND);
 		ShapeRenderer renderer = this.renderer;
 		renderer.begin(ShapeType.Line);
 

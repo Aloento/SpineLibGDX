@@ -1,5 +1,5 @@
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine40;
 
 import java.io.InputStream;
 
@@ -7,9 +7,9 @@ import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Array;
 
-import com.esotericsoftware.spine.SkeletonJson.LinkedMesh;
-import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
+import com.esotericsoftware.spine40.SkeletonJson.LinkedMesh;
+import com.esotericsoftware.spine40.attachments.AtlasAttachmentLoader;
+import com.esotericsoftware.spine40.attachments.AttachmentLoader;
 
 /** Base class for loading skeleton data from a file.
  * <p>

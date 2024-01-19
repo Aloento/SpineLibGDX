@@ -27,13 +27,13 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine40.attachments;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine40.utils.SpineUtils.*;
 
 import com.badlogic.gdx.graphics.Color;
 
-import com.esotericsoftware.spine.PathConstraint;
+import com.esotericsoftware.spine40.PathConstraint;
 
 /** An attachment whose vertices make up a composite Bezier curve.
  * <p>

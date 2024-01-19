@@ -1,5 +1,5 @@
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine41.attachments;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;

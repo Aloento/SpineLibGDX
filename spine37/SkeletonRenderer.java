@@ -27,15 +27,15 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine37;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.ClippingAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.utils.SkeletonClipping;
-import com.esotericsoftware.spine.utils.TwoColorPolygonBatch;
+import com.esotericsoftware.spine37.attachments.Attachment;
+import com.esotericsoftware.spine37.attachments.ClippingAttachment;
+import com.esotericsoftware.spine37.attachments.MeshAttachment;
+import com.esotericsoftware.spine37.attachments.RegionAttachment;
+import com.esotericsoftware.spine37.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine37.utils.SkeletonClipping;
+import com.esotericsoftware.spine37.utils.TwoColorPolygonBatch;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;

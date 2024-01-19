@@ -27,12 +27,12 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine41.utils;
 
 import com.badlogic.gdx.utils.Pool;
 
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonData;
+import com.esotericsoftware.spine41.Skeleton;
+import com.esotericsoftware.spine41.SkeletonData;
 
 public class SkeletonPool extends Pool<Skeleton> {
 	private SkeletonData skeletonData;

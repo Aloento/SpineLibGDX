@@ -27,7 +27,7 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine41;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
@@ -38,13 +38,13 @@ import com.badlogic.gdx.utils.Pool;
 import com.badlogic.gdx.utils.Pool.Poolable;
 import com.badlogic.gdx.utils.SnapshotArray;
 
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.EventTimeline;
-import com.esotericsoftware.spine.Animation.MixBlend;
-import com.esotericsoftware.spine.Animation.MixDirection;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
+import com.esotericsoftware.spine41.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine41.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine41.Animation.EventTimeline;
+import com.esotericsoftware.spine41.Animation.MixBlend;
+import com.esotericsoftware.spine41.Animation.MixDirection;
+import com.esotericsoftware.spine41.Animation.RotateTimeline;
+import com.esotericsoftware.spine41.Animation.Timeline;
 
 /** Applies animations over time, queues animations for later playback, mixes (crossfading) between animations, and applies
  * multiple animations on top of each other (layering).

@@ -27,7 +27,7 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine37.attachments;
 
 public enum AttachmentType {
 	region, boundingbox, mesh, linkedmesh, path, point, clipping;

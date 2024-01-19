@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine31;
 
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Color;
@@ -40,25 +40,25 @@ import com.badlogic.gdx.utils.IntArray;
 import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
 import com.badlogic.gdx.utils.SerializationException;
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.ColorTimeline;
-import com.esotericsoftware.spine.Animation.CurveTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.EventTimeline;
-import com.esotericsoftware.spine.Animation.FfdTimeline;
-import com.esotericsoftware.spine.Animation.IkConstraintTimeline;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.ScaleTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
-import com.esotericsoftware.spine.Animation.TranslateTimeline;
-import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentType;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.WeightedMeshAttachment;
+import com.esotericsoftware.spine31.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine31.Animation.ColorTimeline;
+import com.esotericsoftware.spine31.Animation.CurveTimeline;
+import com.esotericsoftware.spine31.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine31.Animation.EventTimeline;
+import com.esotericsoftware.spine31.Animation.FfdTimeline;
+import com.esotericsoftware.spine31.Animation.IkConstraintTimeline;
+import com.esotericsoftware.spine31.Animation.RotateTimeline;
+import com.esotericsoftware.spine31.Animation.ScaleTimeline;
+import com.esotericsoftware.spine31.Animation.Timeline;
+import com.esotericsoftware.spine31.Animation.TranslateTimeline;
+import com.esotericsoftware.spine31.attachments.AtlasAttachmentLoader;
+import com.esotericsoftware.spine31.attachments.Attachment;
+import com.esotericsoftware.spine31.attachments.AttachmentLoader;
+import com.esotericsoftware.spine31.attachments.AttachmentType;
+import com.esotericsoftware.spine31.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine31.attachments.MeshAttachment;
+import com.esotericsoftware.spine31.attachments.RegionAttachment;
+import com.esotericsoftware.spine31.attachments.WeightedMeshAttachment;
 
 public class SkeletonJson {
 	private final AttachmentLoader attachmentLoader;

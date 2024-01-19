@@ -29,9 +29,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine31.attachments;
 
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine31.Skin;
 
 public interface AttachmentLoader {
 	/** @return May be null to not load any attachment. */

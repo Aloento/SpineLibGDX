@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine31.attachments;
 
 public enum AttachmentType {
 	region, boundingbox, mesh, weightedmesh, linkedmesh, weightedlinkedmesh;

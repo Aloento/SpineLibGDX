@@ -28,13 +28,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine21;
 
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
 import com.badlogic.gdx.utils.ObjectMap.Entry;
 import com.badlogic.gdx.utils.Pool;
-import com.esotericsoftware.spine.attachments.Attachment;
+import com.esotericsoftware.spine21.attachments.Attachment;
 
 /** Stores attachments by slot index and attachment name. */
 public class Skin {

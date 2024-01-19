@@ -27,13 +27,13 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine41.attachments;
 
-import static com.esotericsoftware.spine.utils.SpineUtils.*;
+import static com.esotericsoftware.spine41.utils.SpineUtils.*;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine41.Slot;
 
 public class Sequence {
 	static private int nextID;

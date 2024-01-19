@@ -28,18 +28,18 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine36.utils;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Pool;
-import com.esotericsoftware.spine.AnimationState;
-import com.esotericsoftware.spine.AnimationState.TrackEntry;
-import com.esotericsoftware.spine.AnimationStateData;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.SkeletonData;
-import com.esotericsoftware.spine.SkeletonRenderer;
-import com.esotericsoftware.spine.Skin;
+import com.esotericsoftware.spine36.AnimationState;
+import com.esotericsoftware.spine36.AnimationState.TrackEntry;
+import com.esotericsoftware.spine36.AnimationStateData;
+import com.esotericsoftware.spine36.Skeleton;
+import com.esotericsoftware.spine36.SkeletonData;
+import com.esotericsoftware.spine36.SkeletonRenderer;
+import com.esotericsoftware.spine36.Skin;
 
 public class SkeletonActorPool extends Pool<SkeletonActor> {
 	private SkeletonRenderer renderer;

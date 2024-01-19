@@ -27,7 +27,7 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine40;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -38,13 +38,13 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.FloatArray;
 
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.ClippingAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.PointAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
+import com.esotericsoftware.spine40.attachments.Attachment;
+import com.esotericsoftware.spine40.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine40.attachments.ClippingAttachment;
+import com.esotericsoftware.spine40.attachments.MeshAttachment;
+import com.esotericsoftware.spine40.attachments.PathAttachment;
+import com.esotericsoftware.spine40.attachments.PointAttachment;
+import com.esotericsoftware.spine40.attachments.RegionAttachment;
 
 public class SkeletonRendererDebug {
 	static public final Color boneLineColor = Color.RED;

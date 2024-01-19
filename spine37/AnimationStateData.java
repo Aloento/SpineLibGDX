@@ -27,10 +27,10 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine37;
 
 import com.badlogic.gdx.utils.ObjectFloatMap;
-import com.esotericsoftware.spine.AnimationState.TrackEntry;
+import com.esotericsoftware.spine37.AnimationState.TrackEntry;
 
 /** Stores mix (crossfade) durations to be applied when {@link AnimationState} animations are changed. */
 public class AnimationStateData {

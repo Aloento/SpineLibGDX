@@ -28,11 +28,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine21.attachments;
 
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine21.Bone;
+import com.esotericsoftware.spine21.Skeleton;
+import com.esotericsoftware.spine21.Slot;
 
 import static com.badlogic.gdx.graphics.g2d.Batch.*;
 

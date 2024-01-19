@@ -28,9 +28,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine21.attachments;
 
-import com.esotericsoftware.spine.Skeleton;
+import com.esotericsoftware.spine21.Skeleton;
 
 /** Attachment that displays a skeleton. */
 public class SkeletonAttachment extends Attachment {

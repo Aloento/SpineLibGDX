@@ -27,7 +27,7 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.utils;
+package com.esotericsoftware.spine40.utils;
 
 import com.badlogic.gdx.assets.AssetDescriptor;
 import com.badlogic.gdx.assets.AssetLoaderParameters;
@@ -39,11 +39,11 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Null;
 
-import com.esotericsoftware.spine.SkeletonBinary;
-import com.esotericsoftware.spine.SkeletonData;
-import com.esotericsoftware.spine.SkeletonJson;
-import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
+import com.esotericsoftware.spine40.SkeletonBinary;
+import com.esotericsoftware.spine40.SkeletonData;
+import com.esotericsoftware.spine40.SkeletonJson;
+import com.esotericsoftware.spine40.attachments.AtlasAttachmentLoader;
+import com.esotericsoftware.spine40.attachments.AttachmentLoader;
 
 /** An asset loader to create and load skeleton data. The data file is assumed to be binary if it ends with <code>.skel</code>,
  * otherwise JSON is assumed. The {@link SkeletonDataParameter} can provide a texture atlas name or an {@link AttachmentLoader}.

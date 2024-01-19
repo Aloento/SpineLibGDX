@@ -27,11 +27,11 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine37.attachments;
 
-import com.esotericsoftware.spine.Bone;
-import com.esotericsoftware.spine.Skeleton;
-import com.esotericsoftware.spine.Slot;
+import com.esotericsoftware.spine37.Bone;
+import com.esotericsoftware.spine37.Skeleton;
+import com.esotericsoftware.spine37.Slot;
 
 import com.badlogic.gdx.utils.FloatArray;
 

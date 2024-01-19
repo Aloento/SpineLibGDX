@@ -27,7 +27,7 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine38;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -41,39 +41,39 @@ import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.IntArray;
 import com.badlogic.gdx.utils.SerializationException;
 
-import com.esotericsoftware.spine.Animation.AttachmentTimeline;
-import com.esotericsoftware.spine.Animation.ColorTimeline;
-import com.esotericsoftware.spine.Animation.CurveTimeline;
-import com.esotericsoftware.spine.Animation.DeformTimeline;
-import com.esotericsoftware.spine.Animation.DrawOrderTimeline;
-import com.esotericsoftware.spine.Animation.EventTimeline;
-import com.esotericsoftware.spine.Animation.IkConstraintTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintMixTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintPositionTimeline;
-import com.esotericsoftware.spine.Animation.PathConstraintSpacingTimeline;
-import com.esotericsoftware.spine.Animation.RotateTimeline;
-import com.esotericsoftware.spine.Animation.ScaleTimeline;
-import com.esotericsoftware.spine.Animation.ShearTimeline;
-import com.esotericsoftware.spine.Animation.Timeline;
-import com.esotericsoftware.spine.Animation.TransformConstraintTimeline;
-import com.esotericsoftware.spine.Animation.TranslateTimeline;
-import com.esotericsoftware.spine.Animation.TwoColorTimeline;
-import com.esotericsoftware.spine.BoneData.TransformMode;
-import com.esotericsoftware.spine.PathConstraintData.PositionMode;
-import com.esotericsoftware.spine.PathConstraintData.RotateMode;
-import com.esotericsoftware.spine.PathConstraintData.SpacingMode;
-import com.esotericsoftware.spine.SkeletonJson.LinkedMesh;
-import com.esotericsoftware.spine.attachments.AtlasAttachmentLoader;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.AttachmentLoader;
-import com.esotericsoftware.spine.attachments.AttachmentType;
-import com.esotericsoftware.spine.attachments.BoundingBoxAttachment;
-import com.esotericsoftware.spine.attachments.ClippingAttachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.PathAttachment;
-import com.esotericsoftware.spine.attachments.PointAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.VertexAttachment;
+import com.esotericsoftware.spine38.Animation.AttachmentTimeline;
+import com.esotericsoftware.spine38.Animation.ColorTimeline;
+import com.esotericsoftware.spine38.Animation.CurveTimeline;
+import com.esotericsoftware.spine38.Animation.DeformTimeline;
+import com.esotericsoftware.spine38.Animation.DrawOrderTimeline;
+import com.esotericsoftware.spine38.Animation.EventTimeline;
+import com.esotericsoftware.spine38.Animation.IkConstraintTimeline;
+import com.esotericsoftware.spine38.Animation.PathConstraintMixTimeline;
+import com.esotericsoftware.spine38.Animation.PathConstraintPositionTimeline;
+import com.esotericsoftware.spine38.Animation.PathConstraintSpacingTimeline;
+import com.esotericsoftware.spine38.Animation.RotateTimeline;
+import com.esotericsoftware.spine38.Animation.ScaleTimeline;
+import com.esotericsoftware.spine38.Animation.ShearTimeline;
+import com.esotericsoftware.spine38.Animation.Timeline;
+import com.esotericsoftware.spine38.Animation.TransformConstraintTimeline;
+import com.esotericsoftware.spine38.Animation.TranslateTimeline;
+import com.esotericsoftware.spine38.Animation.TwoColorTimeline;
+import com.esotericsoftware.spine38.BoneData.TransformMode;
+import com.esotericsoftware.spine38.PathConstraintData.PositionMode;
+import com.esotericsoftware.spine38.PathConstraintData.RotateMode;
+import com.esotericsoftware.spine38.PathConstraintData.SpacingMode;
+import com.esotericsoftware.spine38.SkeletonJson.LinkedMesh;
+import com.esotericsoftware.spine38.attachments.AtlasAttachmentLoader;
+import com.esotericsoftware.spine38.attachments.Attachment;
+import com.esotericsoftware.spine38.attachments.AttachmentLoader;
+import com.esotericsoftware.spine38.attachments.AttachmentType;
+import com.esotericsoftware.spine38.attachments.BoundingBoxAttachment;
+import com.esotericsoftware.spine38.attachments.ClippingAttachment;
+import com.esotericsoftware.spine38.attachments.MeshAttachment;
+import com.esotericsoftware.spine38.attachments.PathAttachment;
+import com.esotericsoftware.spine38.attachments.PointAttachment;
+import com.esotericsoftware.spine38.attachments.RegionAttachment;
+import com.esotericsoftware.spine38.attachments.VertexAttachment;
 
 /** Loads skeleton data in the Spine binary format.
  * <p>

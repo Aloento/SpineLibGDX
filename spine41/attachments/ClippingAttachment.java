@@ -27,12 +27,12 @@
  * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine.attachments;
+package com.esotericsoftware.spine41.attachments;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.Null;
 
-import com.esotericsoftware.spine.SlotData;
+import com.esotericsoftware.spine41.SlotData;
 
 /** An attachment with vertices that make up a polygon used for clipping the rendering of other attachments. */
 public class ClippingAttachment extends VertexAttachment {

@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-package com.esotericsoftware.spine;
+package com.esotericsoftware.spine31;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch;
 import com.badlogic.gdx.utils.Array;
-import com.esotericsoftware.spine.attachments.Attachment;
-import com.esotericsoftware.spine.attachments.MeshAttachment;
-import com.esotericsoftware.spine.attachments.RegionAttachment;
-import com.esotericsoftware.spine.attachments.SkeletonAttachment;
-import com.esotericsoftware.spine.attachments.WeightedMeshAttachment;
+import com.esotericsoftware.spine31.attachments.Attachment;
+import com.esotericsoftware.spine31.attachments.MeshAttachment;
+import com.esotericsoftware.spine31.attachments.RegionAttachment;
+import com.esotericsoftware.spine31.attachments.SkeletonAttachment;
+import com.esotericsoftware.spine31.attachments.WeightedMeshAttachment;
 
 public class SkeletonMeshRenderer extends SkeletonRenderer<PolygonSpriteBatch> {
 	static private final short[] quadTriangles = {0, 1, 2, 2, 3, 0};
